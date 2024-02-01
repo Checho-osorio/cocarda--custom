@@ -1,0 +1,19 @@
+{
+  "product-cocarda-settings": {
+    "component": "ProductoCocardaSettings",
+    "content": {
+      "$ref": "app:qaforusuy.cocarda-custom-tm#/definitions/ProductCocarda"
+    }
+  },
+
+  "product-cocarda-TM":{
+    "component": "ProductoCocarda"
+  },
+
+  "product-cocarda-TM-PDP":{
+    "component": "ProducoCocardaPDP"
+  }
+
+
+}
+

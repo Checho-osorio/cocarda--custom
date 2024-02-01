@@ -1,0 +1,54 @@
+.ContentCocardas_PDP,
+.ContentCocardas {
+  display: flex;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  width: 100%;
+
+}
+
+.ContentCocardas_Item__left_PDP,
+.ContentCocardas_Item__left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 50%;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.ContentCocardas_Item__right_PDP,
+.ContentCocardas_Item__right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  width: 50%;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.ContentTextFlag {
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+
+  .ContentTextFlag {
+    min-width: 100% !important;
+  }
+
+  .ContentCocardas {
+    position: relative;
+    height: 40px;
+  }
+}
