@@ -27,6 +27,7 @@ const CocardaItemText = ({collection, tipoCocarda: {tabSelect}, anchoFlag, margi
       border: "0.5px solid #00000000",
       borderColor: colorBorde,
       marginTop: marginTop,
+      borderRadius: "3px"
     }
   }
 

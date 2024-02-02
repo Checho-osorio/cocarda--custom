@@ -1,8 +1,8 @@
 {
-  "vendor": "qaforusuy",
-  "name": "cocarda-custom-tm",
+  "vendor": "colchonesspring",
+  "name": "cocarda-custom",
   "version": "0.0.2",
-  "title": "Cocarda-custom-tm",
+  "title": "Cocarda-custom",
   "description": "Cocarda custom para la PDP y PLP",
   "builders": {
     "react": "3.x",

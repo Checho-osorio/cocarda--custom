@@ -1,16 +1,16 @@
 {
-  "product-cocarda-settings": {
+  "product-flag-settings": {
     "component": "ProductoCocardaSettings",
     "content": {
-      "$ref": "app:qaforusuy.cocarda-custom-tm#/definitions/ProductCocarda"
+      "$ref": "app:colchonesspring.cocarda-custom#/definitions/ProductCocarda"
     }
   },
 
-  "product-cocarda-TM":{
+  "product-flag":{
     "component": "ProductoCocarda"
   },
 
-  "product-cocarda-TM-PDP":{
+  "product-flag-PDP":{
     "component": "ProducoCocardaPDP"
   }
 

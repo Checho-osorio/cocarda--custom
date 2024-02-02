@@ -15,7 +15,7 @@ console.log('checho props', props);
 }
 
 ProductoCocardaSettings.schema = {
-  title: 'Cocardas',
+  title: 'Flags',
 }
 
 

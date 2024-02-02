@@ -1,7 +1,6 @@
 .ContentCocardas_PDP,
 .ContentCocardas {
   display: flex;
-  position: absolute;
   z-index: 9;
   top: 0;
   width: 100%;
@@ -12,7 +11,6 @@
 .ContentCocardas_Item__left {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
   width: 50%;
   align-items: flex-start;
   gap: 5px;
@@ -51,4 +49,34 @@
     position: relative;
     height: 40px;
   }
+}
+
+
+.productsummaryimg_container_img_descuento{
+  border-radius: 3px;
+  background:  #FF1135;
+  height: 20px;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px; /* 100% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 0 5px;
+  left: 19px;
+  top: 20px;
+  z-index: 9;
+}
+
+
+.contentFlag{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+  padding: 10px;
+  width: 85%;
 }

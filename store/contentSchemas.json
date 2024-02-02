@@ -1,15 +1,15 @@
 {
   "definitions": {
     "ProductCocarda": {
-      "title": "Product cocarda settings",
+      "title": "Product Flag settings",
       "type": "object",
       "properties": {
         "productCocarda": {
-          "title": "Product cocarda",
+          "title": "Product Flag",
           "type": "object",
           "properties": {
             "cocardas": {
-              "title": "Cocarda custom",
+              "title": "Flag custom",
               "type": "array",
               "minItems": 1,
               "maxItems": 10,
@@ -19,7 +19,7 @@
                 "properties": {
                   "__editorItemTitle": {
                     "default": "",
-                    "title": "Nombre de la Cocarda",
+                    "title": "Nombre de la Flag",
                     "type": "string"
                 },
                   "collection": {
@@ -28,7 +28,7 @@
                     "default": ""
                   },
                   "tipoCocarda": {
-                    "title": "Tipo de cocarda",
+                    "title": "Tipo de Flag",
                     "type": "object",
                     "properties": {
                       "additionalDef": {
@@ -53,7 +53,7 @@
                                 "type": "object",
                                 "properties": {
                                   "imagenCocarda": {
-                                      "title": "Imagen de la cocarda",
+                                      "title": "Imagen de la Flag",
                                       "type": "string",
                                       "widget": {
                                         "ui:widget": "image-uploader"
@@ -75,7 +75,7 @@
                                 "type": "object",
                                 "properties": {
                                   "textoCocarda": {
-                                      "title": "Texto de la cocarda",
+                                      "title": "Texto de la flag",
                                       "type": "string",
                                       "default": ""
                                     },
@@ -112,7 +112,7 @@
                     "title": "Ancho maximo",
                     "type": "string",
                     "default": "",
-                    "description": "Ancho maximo de la cocarda en la PLP , ingrese medidas en pixeles ej: 100px"
+                    "description": "Ancho maximo de la flag en la PLP , ingrese medidas en pixeles ej: 100px"
                   },
                   "posicionHorizontal": {
                     "type": "string",
@@ -122,7 +122,7 @@
                   },
                 "flagProgramable": {
                   "type": "boolean",
-                  "title": "¿Desea programar la cocarda?",
+                  "title": "¿Desea programar la flag?",
                   "default": false
                 },
                 "initialDate": {
